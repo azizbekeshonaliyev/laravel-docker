@@ -6,7 +6,7 @@ services:
       context: ../../
       dockerfile: ./docker/docker.lc/Dockerfile
     image: laradocker/php
-    container_name: app
+    container_name: laradockerapp
     restart: unless-stopped
     tty: true
     environment:
